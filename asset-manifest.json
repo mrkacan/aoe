@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/aoe/static/css/main.29a1463b.chunk.css",
+    "main.js": "/aoe/static/js/main.0924cc50.chunk.js",
+    "main.js.map": "/aoe/static/js/main.0924cc50.chunk.js.map",
+    "runtime-main.js": "/aoe/static/js/runtime-main.0992e19b.js",
+    "runtime-main.js.map": "/aoe/static/js/runtime-main.0992e19b.js.map",
+    "static/css/2.e995eac1.chunk.css": "/aoe/static/css/2.e995eac1.chunk.css",
+    "static/js/2.23eaa52f.chunk.js": "/aoe/static/js/2.23eaa52f.chunk.js",
+    "static/js/2.23eaa52f.chunk.js.map": "/aoe/static/js/2.23eaa52f.chunk.js.map",
+    "index.html": "/aoe/index.html",
+    "static/css/2.e995eac1.chunk.css.map": "/aoe/static/css/2.e995eac1.chunk.css.map",
+    "static/css/main.29a1463b.chunk.css.map": "/aoe/static/css/main.29a1463b.chunk.css.map",
+    "static/js/2.23eaa52f.chunk.js.LICENSE.txt": "/aoe/static/js/2.23eaa52f.chunk.js.LICENSE.txt",
+    "static/media/ageOfEmpiresHome.198f27e5.png": "/aoe/static/media/ageOfEmpiresHome.198f27e5.png",
+    "static/media/go-back-left-arrow.3815a848.svg": "/aoe/static/media/go-back-left-arrow.3815a848.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0992e19b.js",
+    "static/css/2.e995eac1.chunk.css",
+    "static/js/2.23eaa52f.chunk.js",
+    "static/css/main.29a1463b.chunk.css",
+    "static/js/main.0924cc50.chunk.js"
+  ]
+}
