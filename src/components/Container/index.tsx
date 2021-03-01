@@ -1,5 +1,4 @@
-// @ts-ignore
-import * as classNames from "classnames";
+import classNames from "classnames";
 import { motion } from "framer-motion";
 import * as React from "react";
 import { connect } from "react-redux";
@@ -21,11 +20,11 @@ const Container = ({
 }: IContainerProp & RouteComponentProps) => {
 
     const wrapperClasses = classNames({
-        "m-auto w-screen h-screen p-10 bg-gradient-to-r": true,
+        "m-auto w-screen h-screen p-10 bg-gradient-to-r overflow-hidden": true,
     });
 
     const innerWrapperClasses = classNames({
-        "w-full h-full bg-white p-4 rounded-xl": true,
+        "w-full h-full bg-white p-4 rounded-xl overflow-y-auto": true,
     });
 
     return (

@@ -1,13 +1,13 @@
 import { RouterState } from 'connected-react-router';
 import { combineReducers } from 'redux';
-import { counterReducer, ICounterReducer } from './counter';
+import { unitsReducer, IUnitsReducer } from './units';
 
 const rootReducer = combineReducers({
-    counter: counterReducer,
+    units: unitsReducer,
 });
 
 export interface IState {
-    counter: ICounterReducer,
+    units: IUnitsReducer,
     router: RouterState,
 }
 

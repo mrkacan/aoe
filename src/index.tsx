@@ -11,7 +11,6 @@ import registerServiceWorker from './registerServiceWorker';
 import rootSaga from "./sagas";
 import './styles/shared.scss';
 
-// create the saga middleware
 const sagaMiddleware = createSagaMiddleware();
 
 const history = createBrowserHistory();
@@ -28,7 +27,6 @@ const store = createStore(
   ),
 );
 
-// then run the saga
 sagaMiddleware.run(rootSaga);
 
 class Main extends React.Component<any, any> {

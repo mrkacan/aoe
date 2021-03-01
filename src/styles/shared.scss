@@ -3,19 +3,32 @@
 $background-color: #120e09;
 $primary-color: #114a5a;
 
-.bg-primary {
-  background-color: $background-color;
+* {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
 }
 
+.bg-primary {
+  background-color: $primary-color;
+}
 
-.slidecontainer {
-  max-width: 90%;
+.hover\:bg-primary:hover {
+  color: #ffffff;
+  background-color: $primary-color;
+}
+
+.border-primary {
+  border-color: $primary-color;
 }
 
 .slider {
   -webkit-appearance: none;
   width: 100%;
-  height: 10px;
+  height: 5px;
+  border-radius: 10px;
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
@@ -30,8 +43,9 @@ $primary-color: #114a5a;
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
   background: $primary-color;
   cursor: pointer;
 }
@@ -41,4 +55,42 @@ $primary-color: #114a5a;
   height: 25px;
   background: $primary-color;
   cursor: pointer;
+}
+
+
+.checkbox[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.slider-range-info {
+  width: 40px;
+}
+
+.checkbox-text {
+  width: 60px;
+}
+
+.border-primary {
+  border-color: $primary-color;
+}
+
+.tabs-wrapper {
+  .border:not(:last-child) {
+    border-right: 0 !important;
+  }
+}
+
+.hero-section {
+  img {
+    height: 60vh;
+  }
+}
+
+.input-range__slider {
+  background-color: $primary-color !important;
+}
+
+.input-range__track .input-range__track--active {
+  background: $primary-color !important;
 }

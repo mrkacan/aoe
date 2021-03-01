@@ -1,4 +1,4 @@
-import * as classNames from 'classnames';
+import classNames from 'classnames';
 import { SetStateAction } from 'react';
 import { useEffect, useState } from "react";
 import { connect } from "react-redux";
@@ -13,7 +13,6 @@ interface INavigationProps {
     pathname: string,
 }
 
-
 const Menu = ({
                   history,
                   pathname,
@@ -27,13 +26,12 @@ const Menu = ({
     }, [])
 
     const navigationWrapperClasses = classNames({
-        'flex align-middle items-center border-b shadow-sm': true,
+        'flex align-middle items-center border-b shadow-sm navigation': true,
         'justify-between': true,
     });
 
 
-    return <>
-        <div className={navigationWrapperClasses}>
+    return <div className={navigationWrapperClasses}>
             <Title
                 type={TITLE.H1}
                 title={title}
@@ -58,6 +56,7 @@ const Menu = ({
 
 
                         return <div
+                            data-testid={`nav-units-button-${path}`}
                             key={path + key}
                             className={menuItemClassNames}
                             onClick={() => history.push(path)}
@@ -68,7 +67,6 @@ const Menu = ({
                 }
             </div>
         </div>
-    </>;
 };
 
 const mapStateToProps = (state: IState) => {
