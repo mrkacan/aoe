@@ -13,7 +13,7 @@
   - classnames package for conditionally joining classNames together.
   - Used react-testing-library for some testing. 
 
-# Install &Run
+# Install & Run
 ```sh
 $ yarn install
 $ yarn start
