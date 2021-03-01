@@ -1,7 +1,4 @@
 # Units of the Age of Empires 
-####  [Demo](http://github.com/mrkacan)
-
-
 
 # Features
 
